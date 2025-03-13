@@ -1,22 +1,87 @@
-Training a model to accurately identify key entities (Soft and Technical Skills) within text data.
+# **🔍 Skill Extraction from Job Descriptions using NLP & BERT**
 
-Introduction and background of the planned work:
-Using sophisticated NLP methods, namely Named Entity Recognition (NER) and a well-tuned BERT model, this project examines how employment needs are changing over time. I will generate a BIO-tagged training data of phrases from a collection of web-scraped job descriptions in order to optimize the BERT model.
-Using the wide list of abilities from O*NET OnLine and the skills expressly stated in the job descriptions, I will further enhance my method by creating a thorough taxonomy of skills. Both soft skills and technology skills are included in this classification.
+## **📌 Overview**  
+This project leverages **Natural Language Processing (NLP)** and **BERT-based Named Entity Recognition (NER)** to **extract and classify skills** from job descriptions. The goal is to **automate skill identification** by recognizing **soft skills** and **technical skills** in job postings using **BIO-tagging** and a **fine-tuned BERT model**.
 
-Discussion of current understanding and relevant literature:
-Extricating imperative highlights from information and plans valuable for machine learning calculations. Show determination: try with distinctive machine learning calculations, counting but not restricted to profound learning, arbitrary timberlands, back vector machines, and clustering methods to construct exception discovery models. Show preparing: preparing chosen models employing a subset of the dataset to guarantee appropriate approval and tuning of hyperparameters. Assessment measurements: assess the execution of the models
-utilizing assessment measurements such as accuracy, review, F1 score and range beneath the ROC bend (AUC-ROC). Cross-validation: utilizing k-fold cross-validation for demonstrate approval and evaluate their generalizability. 
+---
 
-Progress of the planned work:
+## **🚀 Features**  
 
-Job Description Dataset:
-Size and Source: Utilizing a dataset of 187,853 web-scraped job descriptions from various websites.
-Unique Identification: Each job description is marked with a 'Job ID'.
-Dataset Content:
-Job Description: A 'Job Description' column providing comprehensive details about each role.
-Skills Recognition: A 'Skills' column that identifies skills required for the job within the description.
-Skills Database: A web-scraped list of 8,904 essential skills from onetonline.org, including 35 soft skills and 8,869 technical skills.
-Model's Role:
-Entity Recognition: Trained to identify skills and technology skills within job descriptions.
-Broad Matching: Capable of recognizing variations and related terms for entities (e.g., "machine learning" in different forms).
+✔ **Automated Skill Extraction** – Detects both **technical** and **soft skills** in job descriptions.  
+✔ **Fine-tuned BERT Model** – Optimized for **Named Entity Recognition (NER)** on job-related text.  
+✔ **Comprehensive Skills Taxonomy** – Incorporates **O*NET skills database** and **web-scraped job postings**.  
+✔ **Intelligent Matching** – Recognizes **synonyms and variations** (e.g., "Machine Learning Engineer" → "ML Engineer").  
+
+---
+
+## **📊 Dataset Details**  
+
+- **📂 Job Descriptions Dataset** – 187,853 **web-scraped job descriptions**.  
+- **🆔 Unique Identification** – Each job description is assigned a **Job ID**.  
+- **📝 Data Columns**:  
+  - **Job Description** – Detailed text about each role.  
+  - **Skills** – Extracted skills required for the job.  
+
+- **🗂 Skills Database** – 8,904 **skills extracted from onetonline.org**, including:  
+  - **35 Soft Skills** (e.g., leadership, communication).  
+  - **8,869 Technical Skills** (e.g., Python, Kubernetes).  
+
+---
+
+## **📌 Model Approach**  
+
+1️⃣ **Dataset Annotation** – BIO-tagging applied to **job descriptions**.  
+2️⃣ **NER Model Training** – Fine-tune **BERT** for skill entity recognition.  
+3️⃣ **Cross-Validation** – Ensure model reliability using **k-fold validation**.  
+4️⃣ **Evaluation Metrics** – Performance measured using **Precision, Recall, F1-Score, and AUC-ROC**.  
+
+---
+
+## **🛠 Technology Stack**  
+
+| **Component**  | **Technology** |
+|---------------|----------------|
+| **Language** | Python |
+| **Frameworks** | TensorFlow, PyTorch, Hugging Face Transformers |
+| **Data Processing** | Pandas, NumPy, NLTK, SpaCy |
+| **Model Architecture** | BERT (Fine-Tuned for NER) |
+| **Evaluation Metrics** | Precision, Recall, F1 Score, AUC-ROC |
+| **Dataset** | Web-Scraped Job Descriptions + O*NET |
+
+---
+
+## **📥 Installation & Usage**  
+
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/tabishkhan72/Skill-Extraction-NLP-BERT.git
+cd Skill-Extraction-NLP-BERT
+```
+
+### **2️⃣ Install Dependencies**  
+Ensure Python **3.8+** is installed, then run:  
+```bash
+pip install -r requirements.txt
+```
+
+### **3️⃣ Train the Model**  
+```bash
+python train_ner.py
+```
+
+### **4️⃣ Run Skill Extraction**  
+To extract skills from a sample job description:  
+```bash
+python extract_skills.py --input "Senior Data Scientist with expertise in Python and Deep Learning."
+```
+
+---
+
+## **📊 Future Enhancements**  
+
+✅ Improve model performance using **Transformer-based architectures (RoBERTa, DistilBERT)**.  
+✅ Introduce **self-learning mechanisms** for continuous model updates.  
+✅ Expand dataset for **more diverse industry-specific skills**.  
+✅ Deploy as an **API** for integration with HR & recruitment platforms.  
+
+---
