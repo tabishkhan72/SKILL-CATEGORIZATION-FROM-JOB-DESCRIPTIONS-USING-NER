@@ -1,4 +1,4 @@
-# **🔍 Skill Extraction from Job Descriptions using NLP & BERT**
+# **🔍 Skill Extraction from Job Descriptions using NLP and BERT**
 
 ## **📌 Overview**  
 This project leverages **Natural Language Processing (NLP)** and **BERT-based Named Entity Recognition (NER)** to **extract and classify skills** from job descriptions. The goal is to **automate skill identification** by recognizing **soft skills** and **technical skills** in job postings using **BIO-tagging** and a **fine-tuned BERT model**.
