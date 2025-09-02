@@ -1,14 +1,14 @@
 # **🔍 Skill Extraction from Job Descriptions using NLP and BERT**
 
 ## **📌 Overview**  
-This project leverages **Natural Language Processing (NLP)** and **BERT-based Named Entity Recognition (NER)** to **extract and classify skills** from job descriptions. The goal is to **automate skill identification** by recognizing **soft skills** and **technical skills** in job postings using **BIO-tagging** and a **fine-tuned BERT model**.
+This project leverages **Natural Language Processing (NLP)** and **BERT-based Named Entity Recognition (NER)** to **extract and classify skills** from job descriptions. The goal is to **automate skill identification** by recognizing **soft skills** and **technical skills** in job postings using **BIO-tagging** and a **fine-tuned BERT model**
 
 ---
 
 ## **🚀 Features**  
 
-✔ **Automated Skill Extraction** – Detects both **technical** and **soft skills** in job descriptions.  
-✔ **Fine-tuned BERT Model** – Optimized for **Named Entity Recognition (NER)** on job-related text.  
+✔ **Automated Skill Extraction** – Detects both **technical** and **soft skills** in job descriptions  
+✔ **Fine-tuned BERT Model** – Optimized for **Named Entity Recognition (NER)** on job-related text  
 ✔ **Comprehensive Skills Taxonomy** – Incorporates **O*NET skills database** and **web-scraped job postings**.  
 ✔ **Intelligent Matching** – Recognizes **synonyms and variations** (e.g., "Machine Learning Engineer" → "ML Engineer").  
 
