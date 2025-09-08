@@ -9,8 +9,8 @@ This project leverages **Natural Language Processing (NLP)** and **BERT-based Na
 
 ✔ **Automated Skill Extraction** – Detects both **technical** and **soft skills** in job descriptions  
 ✔ **Fine-tuned BERT Model** – Optimized for **Named Entity Recognition (NER)** on job-related text  
-✔ **Comprehensive Skills Taxonomy** – Incorporates **O*NET skills database** and **web-scraped job postings**.  
-✔ **Intelligent Matching** – Recognizes **synonyms and variations** (e.g., "Machine Learning Engineer" → "ML Engineer").  
+✔ **Comprehensive Skills Taxonomy** – Incorporates **O*NET skills database** and **web-scraped job postings**  
+✔ **Intelligent Matching** – Recognizes **synonyms and variations** (e.g., "Machine Learning Engineer" → "ML Engineer")  
 
 ---
 
