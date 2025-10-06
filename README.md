@@ -16,11 +16,11 @@ This project leverages **Natural Language Processing (NLP)** and **BERT-based Na
 
 ## **📊 Dataset Details**  
 
-- **📂 Job Descriptions Dataset** – 187,853 **web-scraped job descriptions**.  
-- **🆔 Unique Identification** – Each job description is assigned a **Job ID**.  
+- **📂 Job Descriptions Dataset** – 187,853 **web-scraped job descriptions**  
+- **🆔 Unique Identification** – Each job description is assigned a **Job ID**  
 - **📝 Data Columns**:  
-  - **Job Description** – Detailed text about each role.  
-  - **Skills** – Extracted skills required for the job.  
+  - **Job Description** – Detailed text about each role  
+  - **Skills** – Extracted skills required for the job  
 
 - **🗂 Skills Database** – 8,904 **skills extracted from onetonline.org**, including:  
   - **35 Soft Skills** (e.g., leadership, communication).  
