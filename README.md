@@ -23,8 +23,8 @@ This project leverages **Natural Language Processing (NLP)** and **BERT-based Na
   - **Skills** – Extracted skills required for the job  
 
 - **🗂 Skills Database** – 8,904 **skills extracted from onetonline.org**, including:  
-  - **35 Soft Skills** (e.g., leadership, communication).  
-  - **8,869 Technical Skills** (e.g., Python, Kubernetes).  
+  - **35 Soft Skills** (e.g., leadership, communication)  
+  - **8,869 Technical Skills** (e.g., Python, Kubernetes)  
 
 ---
 
