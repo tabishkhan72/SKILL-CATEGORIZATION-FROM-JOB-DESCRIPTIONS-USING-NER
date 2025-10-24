@@ -7,8 +7,8 @@ This project leverages **Natural Language Processing (NLP)** and **BERT-based Na
 
 ## **🚀 Features**  
 
-✔ **Automated Skill Extraction** – Detects both **technical** and **soft skills** in job descriptions  
-✔ **Fine-tuned BERT Model** – Optimized for **Named Entity Recognition (NER)** on job-related text  
+✔ **Automated Skill Extraction** – Detects both **technical** and **soft skills** in job descriptions.  
+✔ **Fine-tuned BERT Model** – Optimized for **Named Entity Recognition (NER)** on job-related text.  
 ✔ **Comprehensive Skills Taxonomy** – Incorporates **O*NET skills database** and **web-scraped job postings**  
 ✔ **Intelligent Matching** – Recognizes **synonyms and variations** (e.g., "Machine Learning Engineer" → "ML Engineer")  
 
@@ -19,8 +19,8 @@ This project leverages **Natural Language Processing (NLP)** and **BERT-based Na
 - **📂 Job Descriptions Dataset** – 187,853 **web-scraped job descriptions**  
 - **🆔 Unique Identification** – Each job description is assigned a **Job ID**  
 - **📝 Data Columns**:  
-  - **Job Description** – Detailed text about each role  
-  - **Skills** – Extracted skills required for the job  
+  - **Job Description** – Detailed text about each role.  
+  - **Skills** – Extracted skills required for the job.  
 
 - **🗂 Skills Database** – 8,904 **skills extracted from onetonline.org**, including:  
   - **35 Soft Skills** (e.g., leadership, communication)  
